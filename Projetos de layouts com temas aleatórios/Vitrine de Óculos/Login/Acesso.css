@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    width: 100%;
+    font-family: monospace;
+}
+
+#bod-login{
+    background-color: #000000f2;
+}
+/* -------------------------Navegação ----------------------------------------- */
+/* -------------------------Login--------------------------------------------- */
+
+.namelog{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 60px;
+}
+.titulo{
+    color: white;
+    font-size: 40px;
+    padding-top: 50px;
+}
+.logacess{
+    display: flex;
+    justify-content: center;
+    padding-top: 48px;
+}
+.camplog{
+    width: 42%;
+    height: 281px;
+    background-color: gray;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+.camplog input{
+    width: 65%;
+    height: 33px;
+    margin-bottom: 42px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.form{
+    display: block;
+    justify-content: center;
+    padding-top: 50px;
+}
+.name{
+    font-size: 25px;
+    padding-left: 31px;
+}
+.senha-email{
+    font-size: 25px;
+    padding-left: 16px;
+}
+/* ------------------------------------Botao----------------------------------- */
+.botao{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+#botaocadlog:hover{
+    box-shadow: inset 1px 1px 0px 0px #000000;
+    margin: 5px 0px 0px 4px;
+}
+#botaocadlog{
+    width: 42%;
+    height: 53px;
+    background-color: #422222f5;
+    transition: color 0.2s ease-in-out, box-shadow 0.1s ease-in-out;
+    box-shadow: inset -3px -4px 0px 0px #2b1717;
+    border-radius: 5px;
+    border: 0;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+/* ---------------------------Cadastro----------------------------------------- */
+.formCad{
+    display: block;
+    justify-content: center;
+    padding-top: 50px;
+}
+.camplogCad{
+    width: 42%;
+    height: 400px;
+    background-color: gray;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+#input-Cad{
+    width: 65%;
+    height: 33px;
+    margin-bottom: 42px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+/* ------------------------- Footer Login ---------------------------------- */
+.footerlog{
+    background-color: black;
+    width: 100%;
+    height: 120px;
+    color: white;
+    font-size: 15px;
+    font-family: monospace;
+    font-style: italic;
+    display: block;
+    justify-content: flex-start;
+    margin-top: 22%;
+}

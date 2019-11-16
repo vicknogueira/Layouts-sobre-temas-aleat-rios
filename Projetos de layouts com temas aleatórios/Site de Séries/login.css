@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    width: 100%;
+    font-family: monospace;
+}
+
+body{
+    background-color: #000000e0;
+}
+/* -------------------------Navegação ----------------------------------------- */
+.cima{
+    justify-content: center;
+    display: flex;
+    background-color: black;
+    width: 100%;
+    height: 60px;
+    z-index: 1;
+}
+.cima h1{
+    padding-top: 6px;
+    color: red;
+    font-size: 40px;
+}
+.pesquise{
+    padding-top: 14px;
+    padding-right: 74px;
+    display: flex;
+}
+.pesquise input{
+    width: 244px;
+    height: 30px;
+    border-bottom-left-radius: 2px;
+    border-top-left-radius: 2px;
+    border: 0px;
+}
+.pesquise button{
+    width: 30px;
+    height: 31.5px;
+    background-color: green;
+    border-bottom-right-radius: 2px;
+    border-top-right-radius: 2px;
+    border: 0px;
+}
+.pesquise a{
+     text-decoration: none;
+     color: black;
+}
+.acesse{
+    justify-content: center;
+    display: flex;
+    padding-right: 33px;
+    padding-top: 19px;
+
+}
+.acesse ul li{
+    list-style-type: none;
+    text-decoration: none;
+
+}
+.acesse a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.opcao{
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+.caixa a{
+    font-size: 0;
+    transform: translateY(2%);
+    /* transition: .2s; */
+}
+.caixa{
+    width: 108px;
+    height: 0;
+    transform: translateY(2%);
+    transition: .2s;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px; 
+}
+/* -------------------------Login--------------------------------------------- */
+
+.namelog{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 60px;
+}
+h1{
+    color: white;
+    font-size: 40px;
+}
+.logacess{
+    display: flex;
+    justify-content: center;
+    padding-top: 68px;
+}
+.camplog{
+    width: 42%;
+    height: 281px;
+    background-color: gray;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+.camplog input{
+    width: 65%;
+    height: 33px;
+    margin-bottom: 42px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.form{
+    display: block;
+    justify-content: center;
+    padding-top: 50px;
+}
+.name{
+    font-size: 25px;
+    padding-left: 31px;
+}
+.senha{
+    font-size: 25px;
+    padding-left: 16px;
+}
+.botao{
+    display: flex;
+    justify-content: center;
+}
+.botao button{
+    width: 42%;
+    height: 50px;
+    background-color: red;
+    border: 3px solid #a01313;
+    border-radius: 5px;
+    border-top: 0px;
+    border-left: 0px;
+}
+.botao a{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+
